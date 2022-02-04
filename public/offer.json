@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "img": "https://i.ibb.co/S7n3PKP/steak.png",
+        "name": "Rib-Eye Steaks",
+        "price":"$15.89",
+        "description": "Few things are better than a properly grillied steak."
+    },
+    {
+        "id":2,
+        "img": "https://i.ibb.co/Q6BpVQj/Sirloin.png",
+        "name": "T-Bone Steaks",
+        "price":"$16.69",
+        "description": "Few things are better than a properly grillied steak."
+    },
+    {
+        "id":3,
+        "img": "https://i.ibb.co/0Qft3pF/bone.png",
+        "name": "Strip Steaks",
+        "price":"$17.99",
+        "description": "Few things are better than a properly grillied steak."
+    },
+    {
+        "id":4,
+        "img": "https://i.ibb.co/GVSnMvW/strips.png",
+        "name": "Top Sirloin Steaks",
+        "price":"$19.89",
+        "description": "Few things are better than a properly grillied steak."
+    },
+    {
+        "id":5,
+        "img": "https://i.ibb.co/4MgwLSF/pizza.jpg",
+        "name": "Pizza",
+        "price":"$20.89",
+        "description": "Few things are better than a properly grillied steak."
+    },
+    {
+        "id":6,
+        "img": "https://i.ibb.co/zRS76cz/sushi.jpg",
+        "name": "Sushi",
+        "price":"$25.89",
+        "description": "Few things are better than a properly grillied steak."
+    },
+    {
+        "id":7,
+        "img": "https://i.ibb.co/T1RfwhJ/fastfood.jpg",
+        "name": "Fastfood",
+        "price":"$21.69",
+        "description": "Few things are better than a properly grillied steak."
+    },
+    {
+        "id":8,
+        "img": "https://i.ibb.co/T1RfwhJ/fastfood.jpg",
+        "name": "Combo",
+        "price":"$20.69",
+        "description": "Few things are better than a properly grillied steak."
+    }
+
+]
