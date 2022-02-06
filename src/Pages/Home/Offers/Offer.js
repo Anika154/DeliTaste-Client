@@ -14,7 +14,7 @@ const Offer = () => {
     const navigate=useNavigate();
     const[offer, setOffer]= useState([]);
     useEffect(()=>{
-        fetch('/offer.json')
+        fetch('http://localhost:5000/offer')
         .then(res=>res.json())
         .then(data=>{
         setOffer([...data]);
@@ -49,7 +49,7 @@ const Offer = () => {
                         <h3 className='m-7 font-bold text-xl'>{element.name}</h3>
                         <h4 className='text-lg text-gray-500'>{element.description}</h4>
                         <h4 className='font-bold text-xl m-5'>{element.price}</h4>
-                        <button onClick={()=>{navigate(`/item/1`)}} className='w-6/12 mb-5 bg-yellow-600 rounded-full text-white text-lg text-bold h-12  '>Add To Cart</button>
+                        <button onClick={()=>{navigate(`/item/${element._id}`)}} className='w-6/12 mb-5 bg-yellow-600 rounded-full text-white text-lg text-bold h-12  '>Add To Cart</button>
                     </div>))
                 }
                 
